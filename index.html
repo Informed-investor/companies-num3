@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Informed Investor</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #0b0c2c;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #161959;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 3rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      color: #6d71ed;
+      margin: 0;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #6d71ed;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: linear-gradient(145deg, #161959, #0b0c2c);
+      border-bottom: 1px solid #16185c;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      color: #6d71ed;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #b3bff2;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* MAIN CONTENT */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 3rem 1rem;
+      gap: 3rem;
+    }
+
+    /* PROFILE CARD */
+    .profile {
+      max-width: 600px;
+      text-align: center;
+      background: #161959;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #ffffff55;
+    }
+
+    .profile h2 {
+      margin-top: 1rem;
+      font-size: 1.3rem;
+    }
+
+    .profile h3 {
+      margin-top: 0.5rem;
+      font-weight: 400;
+      color: #5358e0;
+    }
+
+    .social-links {
+      margin-top: 1.5rem;
+    }
+
+    .social-links a {
+      color: #ffffff;
+      margin: 0 8px;
+      text-decoration: none;
+      font-size: 1.3rem;
+    }
+
+    .about-image-box {
+  background-color: #161959; /* soft dark green box */
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image-box img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #16185c;
+}
+
+    /* ABOUT SECTION */
+    .about {
+      max-width: 900px;
+      background: #161959;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .about h1 {
+      margin-top: 0;
+      color: #5358e0;
+    }
+
+    .about p {
+      line-height: 1.6;
+    }
+
+    button {
+      background-color: #243b35;
+      color: #fff;
+      border: none;
+      padding: 0.7rem 1.4rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #5358e0;
+      color: #0b0c2c;
+    }
+
+    .section {
+      margin-top: 2rem;
+    }
+
+    .section h2 {
+      color: #5358e0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #16185c;
+      font-size: 0.9rem;
+      background-color: #0b0c2c;
+      border-top: 1px solid #16185c;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Informed Investor</h1>
+    <nav>
+      <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="main">
+    <h2>Prosperity Fund Solution — Nowoczesne podejście do pewnego i przemyślanego inwestowania</h2>
+    <p>Complete analysis of the company | Prevention of fraud | Safe investment</p>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <div class="profile">
+      <img src="your-photo.png" alt="Profile Photo">
+      <h2>Prosperity Fund Solution</h2>
+      <h3>pro-fs.com<br>Switzerland</h3>
+         </div>
+
+    <div class="about" id="about">
+      <h1>O Firmie</h1>
+      <p>
+       Prosperity Fund Solution to firma inwestycyjna, która koncentruje się na zapewnianiu profesjonalnych usług finansowych 
+        w sposób przejrzysty, prosty i dostępny dla inwestorów na każdym poziomie doświadczenia. Opierając się na przekonaniu,
+        że długoterminowy sukces wynika z mądrego planowania i jasnej komunikacji, PFS oferuje klientom solidną drogę 
+        do wzrostu finansowego, wspierając ich jednocześnie narzędziami i wiedzą potrzebną do podejmowania świadomych decyzji.
+<p>
+  <h1>Silne zaangażowanie w sukces klienta</h1>
+  <p>
+Podstawą działania PFS jest prosta zasada: inwestorzy powinni zawsze czuć się poinformowani i pewni swoich decyzji.
+Firma dokładnie analizuje cele każdego klienta — niezależnie od tego, czy chodzi o stabilne budowanie majątku, 
+    dywersyfikację portfela czy odkrywanie nowych możliwości inwestycyjnych. Zespół PFS stawia na jasność przekazu,
+    oferując przejrzyste wyjaśnienia i regularne aktualizacje, aby klienci zawsze wiedzieli, na czym stoją.
+
+      </p>
+
+      <div class="section" id="interests">
+        <h2>Nowoczesne narzędzia i technologie inwestycyjne</h2>
+        <p>
+        PFS korzysta z nowoczesnych rozwiązań cyfrowych, dzięki którym proces inwestowania jest intuicyjny i wygodny.
+Klienci mają dostęp do:
+
+        </p>
+  
+<li>  bieżących informacji rynkowych</li>
+<li>  przejrzystych raportów</li>
+<li>  łatwego w obsłudze panelu klienta</li>
+<li>  narzędzi do monitorowania wyników</li>
+        <p>   
+Połączenie technologii i doświadczenia pozwala inwestorom podejmować świadome decyzje bez poczucia przytłoczenia.
+              </p>
+         <h2>Profesjonalne wsparcie na każdym etapie</h2>
+  <p>
+Doradcy PFS łączą doświadczenie branżowe z realną troską o potrzeby klientów.
+Zamiast uniwersalnych, szablonowych porad, oferują przemyślane strategie dopasowane
+    do konkretnej osoby. Niezależnie od tego, czy ktoś dopiero zaczyna, czy ma już duże 
+    doświadczenie, PFS zapewnia wsparcie odpowiadające jego poziomowi i celom.
+
+      </p>
+             <h2>Budowanie zaufania dzięki przejrzystości</h2>
+  <p>
+PFS przykłada dużą wagę do jasnej komunikacji, realistycznych oczekiwań i otwartego dostępu do informacji.
+Firma dąży do tworzenia środowiska, w którym klienci czują się bezpiecznie, mając pewność, że współpracują
+    z zespołem stawiającym na uczciwość i odpowiedzialność.
+
+
+      </p>
+         <div class="section" id="conclusion">
+        <h2>Partner w długoterminowym rozwoju</h2>
+        <ul>
+         PFS to nie tylko firma inwestycyjna — to partner na każdym etapie finansowej drogi klienta. Dzięki rzetelnym 
+          usługom, nowoczesnym narzędziom i filozofii „klient na pierwszym miejscu”, PFS pomaga inwestorom budować 
+          pewność siebie, zdobywać wiedzę i osiągać swoje cele z zaufanym zespołem po swojej stronie.
+
+              </ul>
+          
+         <div class="about-image-box">
+  <img src="your-photo2.jpg" alt="About section image">
+</div>
+      </div>
+    </div>
+   </div>
+
+
